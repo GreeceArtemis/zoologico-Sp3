@@ -1,5 +1,5 @@
 var img=document.getElementsByClassName("animal");
-var select=document.getElementById("select");
+var select=document.getElementById("selector");
 select.onchange=function(){
   if(select.value=="original"){
       for(var i=0;i<img.length;i++){
